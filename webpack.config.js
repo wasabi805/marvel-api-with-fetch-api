@@ -59,11 +59,13 @@ const common ={
 const development = {
   devServer: {
     historyApiFallback: true,
+
+    //https://github.com/saikat/react-apollo-starter-kit/issues/20#issuecomment-316651403
     proxy: {
-      "/api/*": {
-        target: "http://localhost:5000",
-        changeOrigin: true
-      }
+      "*": "http://[::1]:5000",
+      secure: false,
+      changeOrigin: true,
+
     },
     port: 3000
   }

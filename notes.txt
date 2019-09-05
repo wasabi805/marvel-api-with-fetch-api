@@ -1,0 +1,12 @@
+Things needed to make a call to Marvel:
+
+1.) npm install md5
+3.) npm i node-fetch --save (in order to use fetch in back end) see : https://stackoverflow.com/questions/48433783/referenceerror-fetch-is-not-defined/48433898
+4.) don't forget to make a proxy in development : see package.json
+
+other notes:
+
+https://www.youtube.com/watch?v=Oive66jrwBs @ around 8:00 mins for basic fetch usage
+https://www.youtube.com/watch?v=zUEe_414mD4&list=PLaEFB-zhBL5of8Dks-GrZrx7y4gfK6yvX&index=2 : Basic run down for setting up Marvel API
+
+

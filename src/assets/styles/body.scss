@@ -1,0 +1,38 @@
+#body{
+
+  .container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    overflow: scroll;
+    padding-bottom: 5rem;
+  }
+
+  .context{
+    height: 50vh;
+    width: 50vw;
+    background: #c3cfe2;
+  }
+
+  .btn-container{
+    position: relative;
+    top: 50%;
+    width: 50vw;
+    transform: translateX(50%);
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+
+  .btn{
+    text-decoration: none ;
+    padding: 2rem 3rem;
+    background: lightgray;
+    color: #474747;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 0 2rem;
+
+  }
+
+}
